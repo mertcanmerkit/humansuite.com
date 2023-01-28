@@ -1,0 +1,37 @@
+.banner-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: $primary-color;
+    width: auto;
+    min-height: 400px;
+    text-align: center;
+    padding: 1rem 2rem;
+    overflow-x: clip;
+    padding-bottom: 130px;
+    padding-top: 6rem;
+
+    p {
+        margin-top: 2rem;
+    }
+}
+
+.banner-section-montain-down::before {
+    content: '';
+    background-image: url(../../dev/assets/images/mountain_1.svg);
+    height: 120px;
+    width: 540px;
+    position: absolute;
+    bottom: 0;
+    left: 62px;
+}
+
+.banner-section-montain-up::before {
+    content: '';
+    background-image: url(../../dev/assets/images/mountain_2.svg);
+    height: 120px;
+    width: 540px;
+    position: absolute;
+    bottom: 100%;
+    right: 62px;
+}

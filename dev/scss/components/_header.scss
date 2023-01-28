@@ -1,4 +1,8 @@
 .header {
+    position: fixed;
+    z-index: 1002;
+    width: 100%;
+
     background-color: $white;
 
     .container {
@@ -6,24 +10,26 @@
         justify-content: center;
         padding-top: 1rem;
         padding-bottom: 1rem;
-        margin-bottom: 1.5rem;
     }
 
     .logo {
         display: flex;
         align-items: center;
         margin-right: auto;
+        padding-right: 1rem;
     }
 
     .nav {
         display: flex;
+        align-items: center;
         flex-wrap: wrap;
         list-style: none;
+
 
         li {
             font-size: 16px;
             font-weight: 500;
-            color: $text-color;
+            color: $text-gray-color;
             margin: 0.5rem;
         }
     }
@@ -31,5 +37,13 @@
     .nav-link {
         @extend .text-primary-bold;
         text-decoration: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        .container {
+            display: block !important;
+        }
     }
 }

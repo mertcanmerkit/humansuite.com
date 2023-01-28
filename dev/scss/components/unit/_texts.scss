@@ -1,3 +1,11 @@
+.text-white {
+    color: $white;
+}
+
+.text-gray {
+    color: $text-gray-color;
+}
+
 .text-primary {
     color: $primary-color;
 }
@@ -5,4 +13,8 @@
 .text-primary-bold {
     color: $primary-color;
     font-weight: bold;
+}
+
+.text-secondary {
+    color: $secondary-color;
 }

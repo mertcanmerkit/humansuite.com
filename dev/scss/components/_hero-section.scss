@@ -1,5 +1,4 @@
 .hero-section {
-
     h1 {
         color: $primary-color;
         font-size: 40px;
@@ -12,17 +11,13 @@
 
     p {
         font-size: 20px;
-        color: $text-color;
+        color: $text-gray-color;
     }
 
     .hero-content {
         display: grid;
         gap: 1.25rem;
-    }
-
-    .buttons {
-        display: flex;
-        gap: 1rem;
+        padding: 2rem 0 0 0;
     }
 
     .promotion-info {
@@ -33,4 +28,110 @@
             margin-left: 0.25rem;
         }
     }
+
+    .hero-promotion {
+        position: absolute;
+        top: -23px;
+        right: 80px;
+        height: 570px;
+        width: auto;
+    }
+
+    .tree {
+        position: absolute;
+        width: auto;
+    }
+
+    #tree-1 {
+        bottom: -271px;
+        right: 482px;
+        height: 170px;
+    }
+
+    #tree-2 {
+        bottom: -297px;
+        right: 336px;
+        height: 120px;
+    }
+
+    #tree-3 {
+        bottom: -328px;
+        right: -8px;
+        height: 84px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero-section {
+        .hero-promotion {
+            height: 370px;
+            top: 51px;
+            right: 34px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    #tree-1 {
+        bottom: -185px !important;
+        right: 351px !important;
+        height: 88px !important;
+    }
+
+    #tree-2 {
+        bottom: -200px !important;
+        right: 243px !important;
+        height: 75px !important;
+    }
+
+    #tree-3 {
+        bottom: -210px !important;
+        right: 111px !important;
+        height: 47px !important;
+    }
+
+    .hero-promotion-sm {
+        z-index: 2;
+        display: block;
+        height: 200px;
+        position: absolute;
+        right: 22px;
+        top: -28px;
+    }
+}
+
+@media (max-width: 767px) {
+    #tree-1 {
+        display: none;
+    }
+
+    #tree-2 {
+        display: none;
+    }
+
+    #tree-3 {
+        display: none;
+    }
+
+    .hero-section {
+        .hero-promotion {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            right: 0;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+
+
+    .buttons {
+        button {
+            width: 100%;
+            margin-bottom: 0.5rem;
+        }
+    }
+
+
 }
