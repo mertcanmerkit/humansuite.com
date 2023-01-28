@@ -1,0 +1,36 @@
+.hero-section {
+
+    h1 {
+        color: $primary-color;
+        font-size: 40px;
+
+        span {
+            color: $secondary-color;
+            font-weight: bold;
+        }
+    }
+
+    p {
+        font-size: 20px;
+        color: $text-color;
+    }
+
+    .hero-content {
+        display: grid;
+        gap: 1.25rem;
+    }
+
+    .buttons {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .promotion-info {
+
+        span {
+            display: inline-flex;
+            gap: 0.25rem;
+            margin-left: 0.25rem;
+        }
+    }
+}

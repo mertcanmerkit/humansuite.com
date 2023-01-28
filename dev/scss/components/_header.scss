@@ -1,0 +1,35 @@
+.header {
+    background-color: $white;
+
+    .container {
+        display: flex;
+        justify-content: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        margin-right: auto;
+    }
+
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+
+        li {
+            font-size: 16px;
+            font-weight: 500;
+            color: $text-color;
+            margin: 0.5rem;
+        }
+    }
+
+    .nav-link {
+        @extend .text-primary-bold;
+        text-decoration: none;
+    }
+}

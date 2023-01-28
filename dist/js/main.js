@@ -1,0 +1,1 @@
+const file1="This is file1",file2=(console.log("file 1 okey"),"This is file2aa");console.log("file 2 okey");

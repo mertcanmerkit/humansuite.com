@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.secondary-btn, .primary-btn {
+  display: inline-block;
+  margin-bottom: 0;
+  padding: 0.75rem 3rem;
+  font-size: 14px;
+  text-decoration: unset;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  color: #FFFFFF;
+}
+
+.primary-btn {
+  background-color: #2F4DA6;
+}
+
+.secondary-btn {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(49, 146, 217)), to(rgb(0, 222, 188)));
+  background: linear-gradient(180deg, rgb(49, 146, 217) 0%, rgb(0, 222, 188) 100%);
+}
+
+.text-primary {
+  color: #2F4DA6;
+}
+
+.text-primary-bold, .header .nav-link {
+  color: #2F4DA6;
+  font-weight: bold;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: #F0F4FD;
+}
+
+.header {
+  background-color: #FFFFFF;
+}
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+.header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: auto;
+}
+.header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+}
+.header .nav li {
+  font-size: 16px;
+  font-weight: 500;
+  color: #656565;
+  margin: 0.5rem;
+}
+.header .nav-link {
+  text-decoration: none;
+}
+
+.hero-section h1 {
+  color: #2F4DA6;
+  font-size: 40px;
+}
+.hero-section h1 span {
+  color: #00DEBC;
+  font-weight: bold;
+}
+.hero-section p {
+  font-size: 20px;
+  color: #656565;
+}
+.hero-section .hero-content {
+  display: grid;
+  gap: 1.25rem;
+}
+.hero-section .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+.hero-section .promotion-info span {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 0.25rem;
+  margin-left: 0.25rem;
+}
+
+.circle-drawing {
+  position: relative;
+  display: inline-block;
+}
+
+.circle-drawing::before {
+  content: "";
+  background-image: url(../../dev/assets/icons/circle-drawing.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 202px;
+  height: 91px;
+  position: absolute;
+  top: -24px;
+  right: -36px;
+  z-index: -1;
+}
