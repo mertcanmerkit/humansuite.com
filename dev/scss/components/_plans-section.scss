@@ -86,3 +86,15 @@
         }
     }
 }
+
+@media (min-width: 768px) {
+    .plan.transform-right {
+        transform: translateX(108px);
+        z-index: -1;
+    }
+
+    .plan.transform-left {
+        transform: translateX(-108px);
+        z-index: -1;
+    }
+}

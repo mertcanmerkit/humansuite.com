@@ -485,3 +485,16 @@ p {
   color: #3192D9;
   font-size: 16px;
 }
+
+@media (min-width: 768px) {
+  .plan.transform-right {
+    -webkit-transform: translateX(108px);
+            transform: translateX(108px);
+    z-index: -1;
+  }
+  .plan.transform-left {
+    -webkit-transform: translateX(-108px);
+            transform: translateX(-108px);
+    z-index: -1;
+  }
+}
