@@ -28,9 +28,17 @@ gulp.task('taskJS', async function(){
     .pipe(gulp.dest('./dist/js'))
 })
 
+// Procces Assets
+
+gulp.task('taskAssets', async function(){
+    return gulp.src('./dev/assets/**/*')
+        .pipe(gulp.dest('./dist/assets'))
+})
+
 // Watch
 gulp.task('watch', async function(){
     gulp.watch('./dev/scss/**/*.scss', gulp.series('taskCSS'))
     gulp.watch('./dev/js/**/*.js', gulp.series('taskJS'))
     gulp.watch('./dev/index.html', gulp.series('taskHTML'))
+    gulp.watch('./dev/assets/**/*', gulp.series('taskAssets'))
 })
