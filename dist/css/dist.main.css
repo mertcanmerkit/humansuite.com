@@ -28,7 +28,7 @@ p {
 
 .circle-drawing::before, .circle-drawing-blue-plan::before, .circle-drawing-blue::before {
   content: "";
-  background-image: url(../../dev/assets/icons/circle-drawing.svg);
+  background-image: url(../assets/icons/circle-drawing.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -46,7 +46,7 @@ p {
 
 .circle-drawing-blue::before {
   content: "";
-  background-image: url(../../dev/assets/icons/circle-drawing-blue.svg);
+  background-image: url(../assets/icons/circle-drawing-blue.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -64,7 +64,7 @@ p {
 
 .circle-drawing-blue-plan::before {
   content: "";
-  background-image: url(../../dev/assets/icons/circle-drawing-blue.svg);
+  background-image: url(../assets/icons/circle-drawing-blue.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -365,7 +365,7 @@ p {
 
 .banner-section-montain-down::before {
   content: "";
-  background-image: url(../../dev/assets/images/mountain_1.svg);
+  background-image: url(../assets/images/mountain_1.svg);
   height: 120px;
   width: 540px;
   position: absolute;
@@ -375,7 +375,7 @@ p {
 
 .banner-section-montain-up::before {
   content: "";
-  background-image: url(../../dev/assets/images/mountain_2.svg);
+  background-image: url(../assets/images/mountain_2.svg);
   height: 120px;
   width: 540px;
   position: absolute;
